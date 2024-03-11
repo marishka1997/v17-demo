@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { RxjsComponent } from './rxjs/rxjs.component';
+import { RxJsComponent } from './rxjs/rxjs.component';
 import { ManipulatingTasksComponent } from './manipulating-tasks/manipulating-tasks.component';
 import { SignalsComponent } from './signals/signals.component';
 import { CounterDemoComponent } from './counter-demo/counter-demo.component';
@@ -8,7 +8,7 @@ import { TabsDemoComponent } from './tabs-demo/tabs-demo.component';
 export const routes: Routes = [
   {
     path: 'rxjs-demo',
-    component: RxjsComponent,
+    component: RxJsComponent,
   },
   {
     path: 'manipulating-tasks',
